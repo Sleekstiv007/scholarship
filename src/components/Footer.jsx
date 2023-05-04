@@ -74,7 +74,8 @@ const Footer = () => {
           <li>Cookies</li>
           <li>Disclaimer</li>
           <li className="flex gap-1">
-            <MdCopyright className="mt-[2px]"/>2023 <FaUniversity className="mt-[2px]" />
+            <MdCopyright className="mt-[3px]" />
+            2023 <FaUniversity className="mt-[2px]" />
           </li>
         </ul>
       </div>
