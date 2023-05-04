@@ -12,10 +12,10 @@ const Navbar = () => {
         <AiOutlineMenu size={30} />
       </div>
       <div className="hidden md:flex items-center md:items-center bg-gray-200 rounded-full p-1 text-[14px]"></div>
-      <h1 className="text-2xl font-bold">
-        <FaUniversity size={40} className="text-[#0abf53] mr-[10px]" />
-      </h1>
-      <ul className=" hidden md:flex items-center md:items-center md:mr-[400px] tracking-wider">
+      <div className="mx-0">
+        <FaUniversity size={40} className="text-[#0abf53] mr-[10px] md:mr-60" />
+      </div>
+      <ul className=" hidden md:flex items-center md:items-center md:mr-[800px] tracking-wide">
         <li className="px-4">Home</li>
         <li className="px-4">Services</li>
         <li className="px-4">Contact</li>

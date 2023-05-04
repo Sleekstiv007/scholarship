@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
       <div className="border-t outline-gray-100 flex p-6"></div>
       <div>
-        <ul className="flex justify-between text-gray-100 text-sm">
+        <ul className="flex gap-2 text-gray-100 text-sm md:flex">
           <li>Privacy</li>
           <li>Cookies</li>
           <li>Disclaimer</li>
