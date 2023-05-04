@@ -5,7 +5,9 @@ import {
   FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
+  FaUniversity,
 } from "react-icons/fa";
+import { MdCopyright } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -64,6 +66,17 @@ const Footer = () => {
             <li className="py-2 text-sm">Terms</li>
           </ul>
         </div>
+      </div>
+      <div className="border-t outline-gray-100 flex p-6"></div>
+      <div>
+        <ul className="flex justify-between text-gray-100 text-sm">
+          <li>Privacy</li>
+          <li>Cookies</li>
+          <li>Disclaimer</li>
+          <li className="flex gap-1">
+            <MdCopyright className="mt-[2px]"/>2023 <FaUniversity className="mt-[2px]" />
+          </li>
+        </ul>
       </div>
     </div>
   );
