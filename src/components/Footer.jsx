@@ -11,7 +11,7 @@ import { MdCopyright } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="max-w-[1640px] mx-auto py-12 px-4 grid lg:grid-cols-3 gap-8 text-[#fff] bg-[#00112c]">
+    <div className="max-w-[1640px] mx-auto py-12 px-4 grid lg:grid-cols-3 gap-8 text-[#fff] bg-[#00112c] font-custom">
       <div>
         <h1 className="w-full text-3xl font-bold  text-[#0abf53]">Michael</h1>
         <p className="py-4">
