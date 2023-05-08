@@ -6,7 +6,11 @@ module.exports = {
     //   myGreen: "#00df9a",
     //   myDarkGreen: "#0abf53",
     // },
-    extend: {},
+    extend: {
+      fontFamily: {
+        custom: ["Montserrat", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

@@ -13,9 +13,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1640px] mx-auto py-12 px-4 grid lg:grid-cols-3 gap-8 text-[#fff] bg-[#00112c]">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#0abf53]">
-          SCHOLARSHIP.
-        </h1>
+        <h1 className="w-full text-3xl font-bold  text-[#0abf53]">Michael</h1>
         <p className="py-4">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
           ullam iste repellat consequatur libero reiciendis, blanditiis
@@ -30,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
-        <div>
+        <div className="ml-4">
           <h6 className="font-medium text-[#fff]">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">Analytics</li>
@@ -48,28 +46,19 @@ const Footer = () => {
             <li className="py-2 text-sm">API Status</li>
           </ul>
         </div>
-        <div>
+        <div className="mr-4">
           <h6 className="font-medium text-[#fff]">Company</h6>
           <ul>
             <li className="py-2 text-sm">About</li>
             <li className="py-2 text-sm">Blog</li>
             <li className="py-2 text-sm">Jobs</li>
-            <li className="py-2 text-sm">Press</li>
             <li className="py-2 text-sm">Careers</li>
           </ul>
         </div>
-        <div className="mr-6">
-          <h6 className="font-medium text-[#fff]">Legal</h6>
-          <ul>
-            <li className="py-2 text-sm">Claim</li>
-            <li className="py-2 text-sm">Policy</li>
-            <li className="py-2 text-sm">Terms</li>
-          </ul>
-        </div>
       </div>
-      <div className="border-t outline-gray-100 flex p-6"></div>
+      <div className="border-t outline-gray-100 flex p-4 md:w-[1296px]"></div>
       <div>
-        <ul className="flex gap-2 text-gray-100 text-sm md:flex">
+        <ul className="flex items-center gap-2 text-gray-100 text-sm md:flex md:mt-8">
           <li>Privacy</li>
           <li>Cookies</li>
           <li>Disclaimer</li>

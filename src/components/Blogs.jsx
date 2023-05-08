@@ -24,7 +24,7 @@ const Blogs = () => {
         </article>
       </div>
       <div className="flex justify-center mt-4">
-        <button className="py-[10px] px-[15px] bg-[#00df9a] rounded-md">
+        <button className="py-[10px] px-[15px] bg-[#0abf53] text-[#fff] rounded-md">
           View All
         </button>
       </div>
