@@ -7,7 +7,7 @@ const GetStarted = () => {
         <p className="font-bold text-[#fff] text-2xl md:text-3xl text-center p-6">
           Get started with Applications
         </p>
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center">
           <button className="bg-[#00112c] text-[#fff] font-bold rounded-[8px] p-5 py-4 px-4">
             Talk to our team
           </button>

@@ -23,7 +23,7 @@ const Blogs = () => {
           libero incidunt repellat necessitatibus est?
         </article>
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-12">
         <button className="py-[10px] px-[15px] bg-[#0abf53] text-[#fff] rounded-md">
           View All
         </button>

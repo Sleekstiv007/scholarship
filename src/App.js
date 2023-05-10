@@ -5,6 +5,7 @@ import Blogs from "./components/Blogs";
 import GetStarted from "./components/GetStarted";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import ScholarshipPage from "./components/ScholarshipPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <ScholarshipPage/>
       <Blogs />
       <GetStarted />
       <Footer />
