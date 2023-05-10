@@ -9,7 +9,7 @@ const Navbar = () => {
         <AiOutlineMenu size={25} />
       </div>
       <div className="hidden md:flex items-center md:items-center bg-gray-200 rounded-full p-1 text-[14px]"></div>
-      <h1 className="text-[#0abf53] text-3xl ml-2">Michael</h1>
+      <h1 className="text-[#0abf53] font-medium text-3xl ml-2">Michael</h1>
       <ul className=" hidden md:flex items-center md:items-center md:mr-[700px] tracking-wide">
         <li className="px-4">Home</li>
         <li className="px-4">Services</li>

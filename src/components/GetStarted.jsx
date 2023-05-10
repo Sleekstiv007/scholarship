@@ -4,7 +4,7 @@ const GetStarted = () => {
   return (
     <div className="max-w-[1640px] mx-auto h-full">
       <div className="bg-[#0abf53] py-16 font-normal font-custom w-full flex flex-col justify-center">
-        <p className="font-bold text-[#fff] text-4xl md:text-3xl text-center p-6">
+        <p className="font-bold text-[#fff] text-2xl md:text-3xl text-center p-6">
           Get started with Applications
         </p>
         <div className="flex justify-center mt-4">

@@ -5,7 +5,6 @@ import {
   FaGithubSquare,
   FaInstagram,
   FaTwitterSquare,
-  FaUniversity,
 } from "react-icons/fa";
 import { MdCopyright } from "react-icons/md";
 
@@ -27,44 +26,44 @@ const Footer = () => {
           <FaDribbbleSquare size={30} />
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-2 flex md:tracking-tighter justify-between mt-6">
         <div className="ml-4">
-          <h6 className="font-medium text-[#fff]">Solutions</h6>
+          <h6 className="font-bold text-[#fff]">Solutions</h6>
           <ul>
-            <li className="py-2 text-sm">Analytics</li>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Commerce</li>
-            <li className="py-2 text-sm">Insights</li>
+            <li className="py-2 text-xs">Analytics</li>
+            <li className="py-2 text-xs">Marketing</li>
+            <li className="py-2 text-xs">Commerce</li>
+            <li className="py-2 text-xs">Insights</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-[#fff]">Support</h6>
+          <h6 className="font-bold text-[#fff]">Support</h6>
           <ul>
-            <li className="py-2 text-sm">Pricing</li>
-            <li className="py-2 text-sm">Documentation</li>
-            <li className="py-2 text-sm">Guides</li>
-            <li className="py-2 text-sm">API Status</li>
+            <li className="py-2 text-xs ">Pricing</li>
+            <li className="py-2 text-xs">Documentation</li>
+            <li className="py-2 text-xs">Guides</li>
+            <li className="py-2 text-xs">API Status</li>
           </ul>
         </div>
         <div className="mr-4">
-          <h6 className="font-medium text-[#fff]">Company</h6>
+          <h6 className="font-bold text-[#fff]">Company</h6>
           <ul>
-            <li className="py-2 text-sm">About</li>
-            <li className="py-2 text-sm">Blog</li>
-            <li className="py-2 text-sm">Jobs</li>
-            <li className="py-2 text-sm">Careers</li>
+            <li className="py-2 text-xs">About</li>
+            <li className="py-2 text-xs">Blog</li>
+            <li className="py-2 text-xs">Jobs</li>
+            <li className="py-2 text-xs">Careers</li>
           </ul>
         </div>
       </div>
       <div className="border-t outline-gray-100 flex p-4 md:w-[1296px]"></div>
       <div>
-        <ul className="flex items-center gap-2 text-gray-100 text-sm md:flex md:mt-8">
+        <ul className="flex justify-center items-center gap-2 text-gray-100 text-xs md:flex md:mt-8">
           <li>Privacy</li>
           <li>Cookies</li>
           <li>Disclaimer</li>
           <li className="flex gap-1">
             <MdCopyright className="mt-[3px]" />
-            2023 <FaUniversity className="mt-[2px]" />
+            2023
           </li>
         </ul>
       </div>
