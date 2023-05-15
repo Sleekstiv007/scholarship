@@ -14,10 +14,10 @@ const Hero = () => {
             minus enim.
           </p>
         </div>
-        <div className="md:w-[1500px] md:mr-8">
+        <div className="md:w-[700px] md:mr-8">
           <img
             className="md:pt-12"
-            src="https://media.istockphoto.com/id/980106570/photo/group-of-graduates-celebrating-and-making-selfie.jpg?s=612x612&w=0&k=20&c=k-X9CCtX3WnXV9XgZCTeHZ6n6sBq0xPzWE9-Wwo5kM0="
+            src="https://images.unsplash.com/photo-1605299670824-00515e81b924?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODN8fGNvbGxlZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             alt="/"
           />
         </div>

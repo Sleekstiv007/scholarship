@@ -20,22 +20,22 @@ function CardList() {
     {
       title: "Card 1",
       content: "This is the content of Card 1",
-      icon: <MdVerified/>,
+      icon: <MdVerified size={20}/>,
     },
     {
       title: "Card 2",
       content: "This is the content of Card 2",
-      icon: <MdAccountCircle/>,
+      icon: <MdAccountCircle size={20}/>,
     },
     {
       title: "Card 3",
       content: "This is the content of Card 3",
-      icon: <MdWindow/>,
+      icon: <MdWindow size={20}/>,
     },
     {
       title: "Card 4",
       content: "This is the content of Card 4",
-      icon: <MdWoman/>,
+      icon: <MdWoman size={20}/>,
     },
   ];
 

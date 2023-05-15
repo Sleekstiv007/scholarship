@@ -5,7 +5,10 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   return (
     <div className="max-w-[1640px] mx-auto flex flex-row-reverse justify-between items-center p-4 ">
-      <div onClick={() => setNav(!nav)} className="cursor-pointer md:hidden">
+      <div
+        onClick={() => setNav(!nav)}
+        className="cursor-pointer md:hidden"
+      >
         <AiOutlineMenu size={25} />
       </div>
       <div className="hidden md:flex items-center md:items-center bg-gray-200 rounded-full p-1 text-[10px]"></div>
@@ -17,15 +20,7 @@ const Navbar = () => {
         <li className="px-4">About</li>
         <li className="px-4">Resources</li>
       </ul>
-      {/* <div className="flex gap-4 md:mr-[80px]">
-        <button className="bg-[#fff] text-[#00df9a] hover:bg-[#00df9a] hover:text-[#000] py-[6px] px-2  border-[#000] font-normal rounded-lg md:px-12 md:py-3 ">
-          Log in
-        </button>
-        <button className="bg-[#0abf53] py-[6px] px-2 font-normal rounded-lg md:px-12 md:py-3">
-          Sign in
-        </button>
-      </div> */}
-
+    
       {/* overlay */}
       {nav ? (
         <div className="bg-black/50 fixed w-full h-screen z-10 right-0 top-0"></div>
@@ -61,3 +56,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
